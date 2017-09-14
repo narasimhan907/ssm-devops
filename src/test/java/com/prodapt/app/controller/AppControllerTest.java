@@ -54,7 +54,7 @@ public class AppControllerTest {
 		assertEquals("Records Found", response.getResponseMessage());
 	}
 	
-	@Test
+	/*@Test
 	public void testInvalidInputData() throws Exception
 	{
 		AppResponse response = easeYourWorkController.getResult("Test User");
@@ -68,7 +68,7 @@ public class AppControllerTest {
 		AppResponse response = easeYourWorkController.getResult("Paytm");
 		assertEquals("Success", response.getResponseCode());
 		assertEquals("Records Found for the input:Paytm", response.getResponseMessage());
-	}
+	} */
 	
 	@Test
 	public void testvalidThrowingException() throws Exception
