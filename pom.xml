@@ -37,8 +37,9 @@
 		<java.version>1.8</java.version>		
 		<servlet-api.version>3.1.0</servlet-api.version>
 		<jolokia.version>1.3.3</jolokia.version>
-		<sonar.inclusions> src/test/*</sonar.inclusions>
-		<sonar.exclusions> src/main/*</sonar.exclusions>
+		<sonar.inclusions>src/test/*</sonar.inclusions>
+		<sonar.exclusions>src/main/*</sonar.exclusions>
+		<sonar.sources>src/main/java/*</sonar.sources>
 	</properties>
 	<dependencies>
 		<dependency>
